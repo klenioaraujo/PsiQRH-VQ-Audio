@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-11-16T02:42:43.363709Z",
+  "device": "cpu",
+  "framework": "PyTorch + PSI-QRH + VQ-Audio",
+  "vq_codebook_size": 256,
+  "audio_classes": [
+    "violin",
+    "piano",
+    "drum",
+    "voice",
+    "mixed"
+  ],
+  "dataset_size": 250,
+  "model_parameters": 33297,
+  "final_metrics": {
+    "validation_accuracy": 0.68,
+    "validation_f1": 0.6114285714285714
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5966964226502638,
+      "train_accuracy": 0.32,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.5447017321219811,
+      "train_accuracy": 0.365,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.4549349821530855,
+      "train_accuracy": 0.42,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.2844709983238807,
+      "train_accuracy": 0.415,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1917005593960102,
+      "train_accuracy": 0.415,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.1326052867449248,
+      "train_accuracy": 0.44,
+      "val_accuracy": 0.34,
+      "val_f1": 0.2632558139534884
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.0577292304772596,
+      "train_accuracy": 0.49,
+      "val_accuracy": 0.52,
+      "val_f1": 0.39345454545454545
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.9452711389614985,
+      "train_accuracy": 0.63,
+      "val_accuracy": 0.52,
+      "val_f1": 0.39345454545454545
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.8246614543291239,
+      "train_accuracy": 0.655,
+      "val_accuracy": 0.76,
+      "val_f1": 0.6971828171828172
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7111497383851272,
+      "train_accuracy": 0.735,
+      "val_accuracy": 0.68,
+      "val_f1": 0.6114285714285714
+    }
+  ],
+  "architecture": {
+    "embed_dim": 64,
+    "qrh_layers": 2,
+    "vocab_size": 256
+  }
+}
